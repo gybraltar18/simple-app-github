@@ -1,0 +1,5 @@
+services:
+  webserver:
+    image: ghcr.io/gybraltar18/nginx-gybraltar
+    ports:
+      - "8080:80"
